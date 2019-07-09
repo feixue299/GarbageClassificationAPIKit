@@ -1,0 +1,16 @@
+workspace 'GarbageClassificationAPIKit.xcworkspace'
+
+platform :ios, '8.0'
+use_frameworks!
+
+def garbageClassificationAPIKit_pods
+  pod 'Moya'
+end
+
+target 'GarbageClassificationAPIKit' do
+  garbageClassificationAPIKit_pods
+end
+
+target 'GarbageClassificationAPIKitTests' do
+  garbageClassificationAPIKit_pods
+end
